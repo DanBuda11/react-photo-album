@@ -3,22 +3,18 @@
 
 .albumsContainer {
   text-align: center; }
-
-.albumsContainer .albumThumb {
-  display: inline-block;
-  width: 90%;
-  border: 1px solid #000;
-  box-sizing: border-box; }
-
-.albumsContainer .albumThumb .thumbImgWrap {
-  overflow: hidden;
-  height: 250px; }
-
-.albumsContainer .albumThumb .thumbImgWrap img {
-  max-width: 400px; }
-
-.albumsContainer .albumThumb .albumThumbTitle {
-  margin: 0.5em; }
+  .albumsContainer .albumThumb {
+    display: inline-block;
+    width: 90%;
+    border: 1px solid #000;
+    box-sizing: border-box; }
+    .albumsContainer .albumThumb .thumbImgWrap {
+      overflow: hidden;
+      height: 250px; }
+      .albumsContainer .albumThumb .thumbImgWrap img {
+        max-width: 400px; }
+    .albumsContainer .albumThumb .albumThumbTitle {
+      margin: 0.5em; }
 
 footer {
   text-align: center; }

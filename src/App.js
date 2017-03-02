@@ -1,9 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router';
 import './App.css';
-import Header from './components/Header';
-import Albums from './components/Albums';
-import Footer from './components/Footer';
 import data from './data';
+import Albums from './components/Albums';
 
 const App = React.createClass({
 	getInitialState() {
@@ -12,11 +11,15 @@ const App = React.createClass({
   	render() {
 	    return (
 	    	<div>
-	    		<div className="page-wrap">
-	    			<Header />
-	      			<Albums albums={this.state.data} />
+	    		<div className="header">
+	    			<h1>
+	    				<Link to="/">React Photo Album</Link>
+	    			</h1>
+	    			<Albums albums={this.state.data} />
 	      		</div>
-	      		<Footer />
+	      		<footer>
+	      			<h1>Footer</h1>
+	      		</footer>
 	      	</div>
 	    );
 	}

@@ -3,11 +3,11 @@ import AlbumThumb from './AlbumThumb';
 
 export default React.createClass({
 	render() {
-		console.log(this.props);
 		const albums = this.props.albums.map((album, i) => {
 			return (
 				<AlbumThumb name={this.props.albums[i].name} 
 					img={this.props.albums[i].photos[0].img}
+					id={i}
 					key={i}/>
 			);
 		});
@@ -16,5 +16,5 @@ export default React.createClass({
 				{albums}
 			</div>
 		);
-	}
+	},
 });
