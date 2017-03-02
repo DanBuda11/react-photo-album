@@ -3,7 +3,9 @@ import React from 'react';
 export default React.createClass({
 	render() {
 		return (
-			<h1>The Greatest React Photo Album Ever Made</h1>
+			<div className="header">
+				<h1>React Photo Album</h1>
+			</div>
 		);
 	}
 });

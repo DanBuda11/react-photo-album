@@ -1,6 +1,6 @@
 const data =  [
 	{
-		name: "puppies",
+		name: "Puppies",
 		photos: [
 			{
 				img: "puppy1.jpg",
@@ -17,7 +17,7 @@ const data =  [
 		]
 	},
 	{
-		name: "kittens",
+		name: "Kittens",
 		photos:[
 			{
 				img: "kitten1.jpg",

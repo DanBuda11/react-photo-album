@@ -12,7 +12,7 @@ export default React.createClass({
 			);
 		});
 		return (
-			<div>
+			<div className="albumsContainer">
 				{albums}
 			</div>
 		);

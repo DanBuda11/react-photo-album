@@ -5,8 +5,10 @@ export default React.createClass({
 		console.log(this.props.img);
 		return (
 			<div className="albumThumb">
-				<img src={require('./../images/' + this.props.img)} alt={this.props.name} />
-				<h1>{this.props.name}</h1>
+				<div className="thumbImgWrap">
+					<img src={require('./../images/' + this.props.img)} alt={this.props.name} />
+				</div>
+				<h3 className="albumThumbTitle">{this.props.name}</h3>
 			</div>
 		);
 	}

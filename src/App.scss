@@ -1,10 +1,60 @@
-body {
-	background-color: #bbb;
+// Styling for the header
+.header {
+	text-align: center;
 }
 
-.albumThumb {
+// Styling for home/albums component
+.albumsContainer {
+	text-align: center;
 
-	img {
-		width: 40%;
+	.albumThumb {
+		display: inline-block;
+	 	width: 90%;
+	 	border: 1px solid #000;
+	 	box-sizing: border-box;
+
+	 	.thumbImgWrap {
+	 		overflow: hidden;
+	 		height: 250px;
+
+			img {
+				max-width: 400px;
+			}
+
+		}
+
+		.albumThumbTitle {
+			margin: 0.5em;
+		}
+	}
+
+}
+
+
+
+
+
+
+
+// Styling for the footer
+footer {
+	text-align: center;
+}
+
+// Styling for responsive design
+@media (min-width: 480px) {
+	.albumsContainer {
+		.albumThumb {
+	    	width: 48%;
+	    	margin: 0.9%;
+	  	}
+	}
+}
+
+@media (min-width: 756px) {
+ 	.albumsContainer {
+	 	.albumThumb {
+	    	width: 30%;
+		}
 	}
 }

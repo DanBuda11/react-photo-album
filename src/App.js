@@ -12,8 +12,10 @@ const App = React.createClass({
   	render() {
 	    return (
 	    	<div>
-	    		<Header />
-	      		<Albums albums={this.state.data} />
+	    		<div className="page-wrap">
+	    			<Header />
+	      			<Albums albums={this.state.data} />
+	      		</div>
 	      		<Footer />
 	      	</div>
 	    );
