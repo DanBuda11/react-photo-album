@@ -1,3 +1,31 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.page-wrap {
+	min-height: 100%;
+	margin-bottom: -5em;
+}
+
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+
+footer, .page-wrap:after {
+	height: 5em;
+}
+
+// Styling for all Links
+a {
+	text-decoration: none;
+	display: block;
+}
+
 // Styling for the header
 .header {
 	text-align: center;
@@ -30,7 +58,12 @@
 
 }
 
-
+.bigPhoto {
+	width: 90%;
+	max-width: 500px;
+	display: block;
+	margin: 0 auto;
+}
 
 
 
@@ -39,6 +72,7 @@
 // Styling for the footer
 footer {
 	text-align: center;
+	background: blue;
 }
 
 // Styling for responsive design

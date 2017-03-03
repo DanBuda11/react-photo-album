@@ -13,6 +13,6 @@ export default React.createClass({
 		);
 	},
 	albumClick(e) {
-		browserHistory.push(`/album/${this.props.id}`);
+		browserHistory.push(`/${this.props.name}`);
 	}
 });

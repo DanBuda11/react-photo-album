@@ -12,8 +12,8 @@ const router = (
 	}}>
 		<Route path="/" component={App}>
 			<IndexRoute component={Albums} />
-			<Route path="/album/:albumId" component={Album} />
-			<Route path="/photo/:photoId" component={Photo} />
+			<Route path="/:albumName" component={Album} />
+			<Route path="/:albumName/:photoId" component={Photo} />
 		</Route>
 	</Router>
 );

@@ -32,6 +32,27 @@ const data =  [
 				cap: "kitten 3"
 			}
 		]
+	},
+	{
+		name: "Cakes",
+		photos:[
+			{
+				img: "cake1.jpg",
+				cap: "cake 1"
+			},
+			{
+				img: "cake2.jpg",
+				cap: "cake 2"
+			},
+			{
+				img: "cake3.jpg",
+				cap: "cake 3"
+			},
+			{
+				img: "cake4.jpg",
+				cap: "cake 4"
+			}
+		]
 	}
 ];
 

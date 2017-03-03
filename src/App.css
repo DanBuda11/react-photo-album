@@ -1,3 +1,24 @@
+* {
+  margin: 0; }
+
+html, body {
+  height: 100%; }
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -5em; }
+
+.page-wrap:after {
+  content: "";
+  display: block; }
+
+footer, .page-wrap:after {
+  height: 5em; }
+
+a {
+  text-decoration: none;
+  display: block; }
+
 .header {
   text-align: center; }
 
@@ -16,8 +37,15 @@
     .thumbContainer .thumb .thumbTitle {
       margin: 0.5em; }
 
+.bigPhoto {
+  width: 90%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto; }
+
 footer {
-  text-align: center; }
+  text-align: center;
+  background: blue; }
 
 @media (min-width: 480px) {
   .thumbContainer .thumb {

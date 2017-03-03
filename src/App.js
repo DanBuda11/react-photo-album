@@ -14,10 +14,12 @@ const App = React.createClass({
 	    	}));
 	    return (
 	    	<div>
-	    		<div className="header">
-	    			<h1>
-	    				<Link to="/">React Photo Album</Link>
-	    			</h1>
+	    		<div className="page-wrap">
+	    			<div className="header">
+	    				<h1>
+	    					<Link to="/">React Photo Album</Link>
+	    				</h1>
+	    			</div>
 	    			{childrenWithProps}
 	      		</div>
 	      		<footer>
