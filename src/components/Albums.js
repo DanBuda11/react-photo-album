@@ -5,14 +5,14 @@ export default React.createClass({
 	render() {
 		const albums = this.props.albums.map((album, i) => {
 			return (
-				<AlbumThumb name={this.props.albums[i].name} 
-					img={this.props.albums[i].photos[0].img}
+				<AlbumThumb name={album.name} 
+					img={album.photos[0].img}
 					id={i}
 					key={i}/>
 			);
 		});
 		return (
-			<div className="albumsContainer">
+			<div className="thumbContainer">
 				{albums}
 			</div>
 		);

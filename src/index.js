@@ -13,7 +13,7 @@ const router = (
 		<Route path="/" component={App}>
 			<IndexRoute component={Albums} />
 			<Route path="/album/:albumId" component={Album} />
-			<Route path="/photo/:albumId/photo/:photoId" component={Photo} />
+			<Route path="/photo/:photoId" component={Photo} />
 		</Route>
 	</Router>
 );

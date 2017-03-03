@@ -1,29 +1,29 @@
 .header {
   text-align: center; }
 
-.albumsContainer {
+.thumbContainer {
   text-align: center; }
-  .albumsContainer .albumThumb {
+  .thumbContainer .thumb {
     display: inline-block;
     width: 90%;
     border: 1px solid #000;
     box-sizing: border-box; }
-    .albumsContainer .albumThumb .thumbImgWrap {
+    .thumbContainer .thumb .thumbImgWrap {
       overflow: hidden;
       height: 250px; }
-      .albumsContainer .albumThumb .thumbImgWrap img {
+      .thumbContainer .thumb .thumbImgWrap img {
         max-width: 400px; }
-    .albumsContainer .albumThumb .albumThumbTitle {
+    .thumbContainer .thumb .thumbTitle {
       margin: 0.5em; }
 
 footer {
   text-align: center; }
 
 @media (min-width: 480px) {
-  .albumsContainer .albumThumb {
+  .thumbContainer .thumb {
     width: 48%;
     margin: 0.9%; } }
 
 @media (min-width: 756px) {
-  .albumsContainer .albumThumb {
+  .thumbContainer .thumb {
     width: 30%; } }

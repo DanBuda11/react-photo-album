@@ -3,13 +3,12 @@ import { browserHistory } from 'react-router';
 
 export default React.createClass({
 	render() {
-		console.log(this.props.img);
 		return (
-			<div className="albumThumb" onClick={this.albumClick}>
+			<div className="thumb" onClick={this.albumClick}>
 				<div className="thumbImgWrap">
 					<img src={require('./../images/' + this.props.img)} alt={this.props.name} />
 				</div>
-				<h3 className="albumThumbTitle">{this.props.name}</h3>
+				<h3 className="thumbTitle">{this.props.name}</h3>
 			</div>
 		);
 	},
