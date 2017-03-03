@@ -8,7 +8,7 @@ export default React.createClass({
 		const thisPhoto = thisAlbum[0].photos[this.props.params.photoId];
 		return (
 			<div>
-				<Link to="/">Home</Link>
+				<Link to="/">Home</Link><Link to={`/${this.props.params.albumName}`}>{thisAlbum[0].name}</Link>
 				<img className="bigPhoto" src={require('./../images/' + thisPhoto.img)} alt={thisPhoto.cap} />
 			</div>
 		);
