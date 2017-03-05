@@ -1,8 +1,11 @@
+// Import React stuff
 import React from 'react';
+// Import component
 import AlbumThumb from './AlbumThumb';
 
 export default React.createClass({
 	render() {
+		// Give each album thumbnail props
 		const albums = this.props.albums.map((album, i) => {
 			return (
 				<AlbumThumb name={album.name} 

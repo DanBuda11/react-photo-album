@@ -4,15 +4,15 @@ const data =  [
 		photos: [
 			{
 				img: "puppy1.jpg",
-				cap: "puppy 1"
+				cap: "Thinking Puppy"
 			},
 			{
 				img: "puppy2.jpg",
-				cap: "puppy 2"
+				cap: "Sad Puppy"
 			},
 			{
 				img: "puppy3.jpg",
-				cap: "puppy 3"
+				cap: "Running Puppy"
 			}
 		]
 	},
@@ -21,15 +21,15 @@ const data =  [
 		photos:[
 			{
 				img: "kitten1.jpg",
-				cap: "kitten 1"
+				cap: "Cute Kitten"
 			},
 			{
 				img: "kitten2.jpg",
-				cap: "kitten 2"
+				cap: "GRRROWWWL!!"
 			},
 			{
 				img: "kitten3.jpg",
-				cap: "kitten 3"
+				cap: "I'm in a box!"
 			}
 		]
 	},
@@ -38,19 +38,36 @@ const data =  [
 		photos:[
 			{
 				img: "cake1.jpg",
-				cap: "cake 1"
+				cap: "Strawberry Cake"
 			},
 			{
 				img: "cake2.jpg",
-				cap: "cake 2"
+				cap: "Chocolate Cake"
 			},
 			{
 				img: "cake3.jpg",
-				cap: "cake 3"
+				cap: "Fun Cake"
 			},
 			{
 				img: "cake4.jpg",
-				cap: "cake 4"
+				cap: "4 Layer Cake"
+			}
+		]
+	},
+	{
+		name: "Tacos",
+		photos:[
+			{
+				img: "taco1.jpg",
+				cap: "Fajita Taco"
+			},
+			{
+				img: "taco2.jpg",
+				cap: "Taco Tuesday!"
+			},
+			{
+				img: "taco3.jpg",
+				cap: "Purse Taco?"
 			}
 		]
 	}

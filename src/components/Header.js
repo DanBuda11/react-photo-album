@@ -1,3 +1,4 @@
+// Import React stuff
 import React from 'react';
 
 export default React.createClass({

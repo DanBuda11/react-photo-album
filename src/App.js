@@ -1,13 +1,18 @@
+// Import React stuff
 import React from 'react';
 import { Link } from 'react-router';
+// Import compiled CSS
 import './App.css';
+// Import photo album info
 import data from './data';
 
+// Create main React component
 const App = React.createClass({
 	getInitialState() {
 		return {data: data}
 	},
   	render() {
+  		// Clone child components giving them props from the state
 	    const childrenWithProps = React.Children.map(this.props.children,
 	    	(child) => React.cloneElement(child, {
 	    		albums: this.state.data
@@ -23,7 +28,7 @@ const App = React.createClass({
 	    			{childrenWithProps}
 	      		</div>
 	      		<footer>
-	      			<h1>Footer</h1>
+	      			<h4>A <a href="http://danbuda.com">Dan Buda</a> Project</h4>
 	      		</footer>
 	      	</div>
 	    );

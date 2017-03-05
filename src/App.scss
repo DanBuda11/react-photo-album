@@ -1,24 +1,69 @@
-// Styling for all Links
+// Import color variables
+@import 'variables';
+
+// Styling for "sticky footer"
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	position: relative;
+}
+
+// Styling for Links
 a {
 	text-decoration: none;
 	display: inline-block;
-	margin-right: 1em;
+	color: $white;
+}
+
+a:visited {
+	color: $white;
 }
 
 // Styling for the header
 .header {
 	text-align: center;
+	background-color: $blue;
+	padding: 1em;
+
+	h1 {
+		margin: 0;
+	}	
+}
+
+// Styling for "back" buttons
+.arrow {
+	display: inline;
+	color: $crumb;
+	margin-left: 0.5em;
+}
+
+#breadcrumb {
+	color: $crumb;
+	padding: 0.5em;
+	font-weight: bold;
+	margin: 0.5em 0;
+}
+
+// Styling for album/photo titles
+.title {
+	text-align: center;
+	margin-top: 0;
 }
 
 // Styling for home/albums component
 .thumbContainer {
 	text-align: center;
+	padding-bottom: 6em;
 
 	.thumb {
 		display: inline-block;
 	 	width: 90%;
-	 	border: 1px solid #000;
+	 	border: 2px solid $grey;
 	 	box-sizing: border-box;
+	 	margin: 1em 0;
 
 	 	.thumbImgWrap {
 	 		overflow: hidden;
@@ -31,32 +76,44 @@ a {
 		}
 
 		.thumbTitle {
-			margin: 0.5em;
+			margin: 0;
+			border-top: 2px solid $grey;
+			padding: 1em;
 		}
 	}
-
 }
 
-// Styling for image on Photo component
+// Styling for big photo component
 .bigPhoto {
 	width: 90%;
 	max-width: 500px;
 	display: block;
 	margin: 0 auto;
+	padding-bottom: 10em;
 }
 
 // Styling for the footer
 footer {
 	text-align: center;
-	background: blue;
+	background: $blue;
+	padding: 2em;
+
+	// More styling for the "sticky footer"
+	position: absolute;
+	left: 0; right: 0; bottom: 0;
+
+	h4 {
+		color: $white;
+		margin: 0;
+	}
 }
 
 // Styling for responsive design
 @media (min-width: 480px) {
 	.thumbContainer {
 		.thumb {
-	    	width: 48%;
-	    	margin: 0.9%;
+	    	width: 45%;
+	    	margin: 2.5%;
 	  	}
 	}
 }
@@ -64,7 +121,8 @@ footer {
 @media (min-width: 756px) {
  	.thumbContainer {
 	 	.thumb {
-	    	width: 30%;
+	    	width: 29%;
+	    	margin: 1em;
 		}
 	}
 }

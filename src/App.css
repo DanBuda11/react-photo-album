@@ -1,19 +1,51 @@
+html {
+  height: 100%; }
+
+body {
+  min-height: 100%;
+  position: relative; }
+
 a {
   text-decoration: none;
   display: inline-block;
-  margin-right: 1em; }
+  color: #FFF; }
+
+a:visited {
+  color: #FFF; }
 
 .header {
-  text-align: center; }
+  text-align: center;
+  background-color: #3431B5;
+  padding: 1em; }
+
+.header h1 {
+  margin: 0; }
+
+.arrow {
+  display: inline;
+  color: #AF3D8B;
+  margin-left: 0.5em; }
+
+#breadcrumb {
+  color: #AF3D8B;
+  padding: 0.5em;
+  font-weight: bold;
+  margin: 0.5em 0; }
+
+.title {
+  text-align: center;
+  margin-top: 0; }
 
 .thumbContainer {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 6em; }
 
 .thumbContainer .thumb {
   display: inline-block;
   width: 90%;
-  border: 1px solid #000;
-  box-sizing: border-box; }
+  border: 2px solid #e1d9ec;
+  box-sizing: border-box;
+  margin: 1em 0; }
 
 .thumbContainer .thumb .thumbImgWrap {
   overflow: hidden;
@@ -23,23 +55,36 @@ a {
   max-width: 400px; }
 
 .thumbContainer .thumb .thumbTitle {
-  margin: 0.5em; }
+  margin: 0;
+  border-top: 2px solid #e1d9ec;
+  padding: 1em; }
 
 .bigPhoto {
   width: 90%;
   max-width: 500px;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-bottom: 10em; }
 
 footer {
   text-align: center;
-  background: blue; }
+  background: #3431B5;
+  padding: 2em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+footer h4 {
+  color: #FFF;
+  margin: 0; }
 
 @media (min-width: 480px) {
   .thumbContainer .thumb {
-    width: 48%;
-    margin: 0.9%; } }
+    width: 45%;
+    margin: 2.5%; } }
 
 @media (min-width: 756px) {
   .thumbContainer .thumb {
-    width: 30%; } }
+    width: 29%;
+    margin: 1em; } }
