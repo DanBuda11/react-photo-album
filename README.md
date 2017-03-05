@@ -7,4 +7,4 @@ A simple photo album made with React. While the album/photo info is hard-coded, 
 * Scripts updated to include sass-watch and .scss to .css compilation
 * Responsive design
 
-Check out a working version [here](reactphotoalbum-danbuda.surge.sh).
+Check out a working version [here](http://reactphotoalbum-danbuda.surge.sh).
