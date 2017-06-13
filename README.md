@@ -1,5 +1,7 @@
 ##React Photo Album
 
+<kbd>![Image](react-photo-album.png)</kbd>
+
 A simple photo album made with React. While the album/photo info is hard-coded, this is an example of setting state on the main parent component and filtering all the information necessary down to child components using only props and params.
 
 * Built with [create-react-app](https://github.com/facebookincubator/create-react-app)
