@@ -1,7 +1,6 @@
 // Import React stuff
 import React from 'react';
 import { Link } from 'react-router';
-// import { browserHistory } from 'react-router';
 
 export default React.createClass({
   // Render using passed-down props for album image & name
@@ -18,8 +17,4 @@ export default React.createClass({
       </Link>
     );
   },
-  // Click function that creates url param
-  // albumClick(e) {
-  //   browserHistory.push(`/${this.props.name}`);
-  // },
 });

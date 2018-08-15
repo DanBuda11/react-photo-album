@@ -1,6 +1,5 @@
 // Import React stuff
 import React from 'react';
-// import { browserHistory } from 'react-router';
 import { Link } from 'react-router';
 
 export default React.createClass({
@@ -18,8 +17,4 @@ export default React.createClass({
       </Link>
     );
   },
-  // Click function that creates url params
-  // imgClick(e) {
-  // 	browserHistory.push(`/${this.props.albumName}/${this.props.id}`);
-  // }
 });
