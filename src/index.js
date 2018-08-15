@@ -8,18 +8,13 @@ import Albums from './components/Albums';
 import Album from './components/Album';
 import Photo from './components/Photo';
 
-// Create router paths
-const router = (
-	<Router history={browserHistory} onUpdate={() => {
-		window.scrollTo(0, 0);
-	}}>
-		<Route path="/" component={App}>
-			<IndexRoute component={Albums} />
-			<Route path="/:albumName" component={Album} />
-			<Route path="/:albumName/:photoId" component={Photo} />
-		</Route>
-	</Router>
+ReactDOM.render(
+  <Router history={browserHistory}>
+    <Route path="/" component={App}>
+      <IndexRoute component={Albums} />
+      <Route path="/:albumName" component={Album} />
+      <Route path="/:albumName/:photoId" component={Photo} />
+    </Route>
+  </Router>,
+  document.getElementById('root')
 );
-
-// Render
-ReactDOM.render(router, document.getElementById('root'));
