@@ -10,9 +10,6 @@ a {
   display: inline-block;
   color: #FFF; }
 
-a:visited {
-  color: #000; }
-
 .header {
   text-align: center;
   background-color: #3431B5;
