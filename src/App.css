@@ -14,9 +14,8 @@ a {
   text-align: center;
   background-color: #3431B5;
   padding: 1em; }
-
-.header h1 {
-  margin: 0; }
+  .header h1 {
+    margin: 0; }
 
 .arrow {
   display: inline;
@@ -36,27 +35,23 @@ a {
 .thumbContainer {
   text-align: center;
   padding-bottom: 6em; }
-
-.thumbContainer .thumb {
-  display: inline-block;
-  width: 90%;
-  border: 2px solid #e1d9ec;
-  box-sizing: border-box;
-  margin: 1em 0;
-  cursor: pointer; }
-
-.thumbContainer .thumb .thumbImgWrap {
-  overflow: hidden;
-  height: 250px; }
-
-.thumbContainer .thumb .thumbImgWrap img {
-  max-width: 400px; }
-
-.thumbContainer .thumb .thumbTitle {
-  margin: 0;
-  border-top: 2px solid #e1d9ec;
-  padding: 1em;
-  color: #000; }
+  .thumbContainer .thumb {
+    display: inline-block;
+    width: 90%;
+    border: 2px solid #e1d9ec;
+    box-sizing: border-box;
+    margin: 1em 0;
+    cursor: pointer; }
+    .thumbContainer .thumb .thumbImgWrap {
+      overflow: hidden;
+      height: 250px; }
+      .thumbContainer .thumb .thumbImgWrap img {
+        max-width: 400px; }
+    .thumbContainer .thumb .thumbTitle {
+      margin: 0;
+      border-top: 2px solid #e1d9ec;
+      padding: 1em;
+      color: #000; }
 
 .bigPhoto {
   width: 90%;
@@ -73,10 +68,9 @@ footer {
   left: 0;
   right: 0;
   bottom: 0; }
-
-footer h4 {
-  color: #FFF;
-  margin: 0; }
+  footer h4 {
+    color: #FFF;
+    margin: 0; }
 
 @media (min-width: 480px) {
   .thumbContainer .thumb {
